@@ -1,5 +1,6 @@
 import 'package:flutter/widgets.dart';
 import 'package:qltt_danthanh/page/dashboard/dashboard_screen.dart';
+import 'file:///C:/Users/ThanhThuan%20User/AndroidStudioProjects/qltt_danthanh/lib/page/details/details_screen.dart';
 import 'package:qltt_danthanh/page/home/home_page.dart';
 import 'package:qltt_danthanh/page/login_success_screen/login_success_screen.dart';
 import 'package:qltt_danthanh/page/sign_in/sign_in_screen.dart';
@@ -12,4 +13,5 @@ final Map<String, WidgetBuilder> routes = {
   ForgotPasswordScreen.routeName: (context) => ForgotPasswordScreen(),
   LoginSuccessScreen.routeName: (context) => LoginSuccessScreen(),
   DashboardScreen.routeName: (context) => DashboardScreen(),
+  DetailsScreen.routeName: (context) => DetailsScreen(),
 };
